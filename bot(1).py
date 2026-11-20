@@ -11,8 +11,8 @@ from telegram import ReplyKeyboardMarkup, Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 
 load_dotenv()
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ISM = os.getenv("BOT_ISM", "Afruzbek")
+BOT_TOKEN = os.getenv("9077200448:AAEhCQpODrwqPJlxlpBzeTDoG2VMQID70GU")
+ISM = os.getenv("Eslatma", "Afruzbek")
 TZ = zoneinfo.ZoneInfo("Asia/Tashkent")
 ESLATMA_VAQTI = datetime.time(8, 0, tzinfo=TZ)  # har kuni ertalab 08:00
 
