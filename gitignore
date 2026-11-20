@@ -1,0 +1,9 @@
+# Maxfiy ma'lumotlar
+.env
+
+# Python
+__pycache__/
+*.pyc
+botenv/
+venv/
+.venv/
